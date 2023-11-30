@@ -1,4 +1,6 @@
-# 2023-TIFS-DTIBA
+# Invisible backdoor attack with dynamic triggers against person re-identification (IEEE T-IFS 2023)
+This is the pytorch implementation of the [paper](https://ieeexplore.ieee.org/abstract/document/10285514/) (accepted by IEEE T-IFS 2023). 
+
 ## Getting Started with DT-IBA
 
 1. **Installation:**
