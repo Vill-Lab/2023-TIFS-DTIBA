@@ -1,0 +1,21 @@
+# Getting Started with DT-IBA
+1. First you need to install the relevant installation packages, which are listed in requirements.txt, and run the following command from the command line to install them all.
+  pip install -r requirements.txt
+
+2. Prepare pretrained model
+Some parts we referenced excellent existing work, so you are invited to follow the work of the original authors if you need to.
+The feature extraction phase of our identity hashing network uses a pre-trained SBS-R101, which can be obtained from FastReID's github repo (https://github.com/JDAI-CV/fast-reid/). In addition, the  steganography network is referenced from StegaStamp and needs to be retrained according to the image size of the dataset (https://github.com/tancik/StegaStamp/).
+@article{he2020fastreid,
+  title={FastReID: A Pytorch Toolbox for General Instance Re-identification},
+  author={He, Lingxiao and Liao, Xingyu and Liu, Wu and Liu, Xinchen and Cheng, Peng and Mei, Tao},
+  journal={arXiv preprint arXiv:2006.02631},
+  year={2020}
+}
+@inproceedings{2019stegastamp,
+    title={StegaStamp: Invisible Hyperlinks in Physical Photographs},
+    author={Tancik, Matthew and Mildenhall, Ben and Ng, Ren},
+    booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year={2020}
+}
+3. Put the dataset to be poisoned into ". /dataset", and set the input and output path, parameters of the pre-trained model, and the configuration of the victim model in backdoor_implantation.py, then run the following command.
+ python backdoor_implantation.py

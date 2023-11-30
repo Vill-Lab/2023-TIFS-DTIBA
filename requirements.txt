@@ -1,0 +1,62 @@
+absl-py @ file:///opt/conda/conda-bld/absl-py_1639803114343/work
+astor==0.8.1
+bchlib==0.14.0
+beautifulsoup4==4.11.1
+certifi @ file:///opt/conda/conda-bld/certifi_1655968806487/work/certifi
+charset-normalizer==2.1.0
+cycler==0.11.0
+easydict==1.9
+faiss-gpu==1.7.2
+filelock==3.8.0
+fonttools==4.36.0
+future==0.18.2
+gast==0.2.2
+gdown==4.5.1
+google-pasta @ file:///Users/ktietz/demo/mc3/conda-bld/google-pasta_1630577991354/work
+grpcio @ file:///tmp/build/80754af9/grpcio_1637578017926/work
+h5py @ file:///tmp/abs_4aewd3wzey/croots/recipe/h5py_1659091371897/work
+idna==3.3
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1648562407465/work
+joblib==1.1.0
+Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
+Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
+kiwisolver==1.4.4
+Markdown @ file:///tmp/build/80754af9/markdown_1614363832606/work
+matplotlib==3.5.3
+mkl-fft==1.3.1
+mkl-random @ file:///tmp/build/80754af9/mkl_random_1626179032232/work
+mkl-service==2.4.0
+numpy==1.19.0
+opencv-python==4.6.0.66
+opt-einsum @ file:///tmp/build/80754af9/opt_einsum_1621500238896/work
+packaging==21.3
+Pillow==9.2.0
+prettytable==3.3.0
+protobuf==3.20.1
+pyparsing==3.0.9
+PySocks==1.7.1
+python-dateutil==2.8.2
+PyYAML==6.0
+requests==2.28.1
+scikit-learn==1.0.2
+scipy @ file:///tmp/build/80754af9/scipy_1641536880743/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+soupsieve==2.3.2.post1
+stn==1.0.1
+tabulate==0.8.10
+tensorboard==1.15.0
+tensorflow==1.15.0
+tensorflow-estimator==1.15.1
+termcolor==1.1.0
+threadpoolctl==3.1.0
+torch==1.6.0
+torchvision==0.7.0
+tqdm==4.64.0
+typing_extensions @ file:///tmp/abs_ben9emwtky/croots/recipe/typing_extensions_1659638822008/work
+urllib3==1.26.11
+wcwidth==0.2.5
+webencodings==0.5.1
+Werkzeug==0.16.1
+wrapt @ file:///tmp/abs_c335821b-6e43-4504-9816-b1a52d3d3e1eel6uae8l/croots/recipe/wrapt_1657814400492/work
+yacs==0.1.8
+zipp @ file:///opt/conda/conda-bld/zipp_1652341764480/work
