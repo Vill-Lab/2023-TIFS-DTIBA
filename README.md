@@ -39,3 +39,17 @@
      python backdoor_implantation.py
      ```
 
+**Citation:**
+- If you use the DT-IBA method in your work, please cite this paper:
+  ```
+  @ARTICLE{10285514,
+  author={Sun, Wenli and Jiang, Xinyang and Dou, Shuguang and Li, Dongsheng and Miao, Duoqian and Deng, Cheng and Zhao, Cairong},
+  journal={IEEE Transactions on Information Forensics and Security}, 
+  title={Invisible Backdoor Attack With Dynamic Triggers Against Person Re-Identification}, 
+  year={2024},
+  volume={19},
+  number={},
+  pages={307-319},
+  doi={10.1109/TIFS.2023.3322659}}
+
+  ```
